@@ -9,7 +9,7 @@
 7. I used nested for loops to iterate through each team and their oppenents.
 8. When a team and their oppenent were equal the cell.innerHTML was set to "--".
 9. Every other instance the cell.innerHTML was set to the corresponding wins record in the JSON object.
-10. The format for this retrieval was object[team][teamVersus].W.
+10. The format for getting this information from JSON was object[team][teamVersus].W.
 11. For cells that were in the first column, last column, first row, or last row corresponding classes were added to make styling the table easier.
 12. This is my sample solution:
 
